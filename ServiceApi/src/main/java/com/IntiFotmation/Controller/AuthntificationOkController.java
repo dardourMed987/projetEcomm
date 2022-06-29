@@ -16,5 +16,11 @@ public class AuthntificationOkController {
 	{
 		return new AuthentificationOK ("vous etes connecte");
 	}
+	
+	@GetMapping("/testGit")
+	public String afficher2()
+	{
+		return "Bonjour";
+	}
 
 }
